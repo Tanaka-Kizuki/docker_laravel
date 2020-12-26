@@ -1,5 +1,5 @@
 #イメージのベースを指定
-FROM php:7.4-fpm
+FROM php:7.2-fpm
 
 #composerのインストール
 COPY --from=composer:1.10 /usr/bin/composer /usr/bin/composer
